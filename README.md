@@ -9,6 +9,8 @@ Basic filtering against collection of **Commodore 64** games. This is also what 
 learned/improved from [egghead.io][link-egghead] today. Thanks to Mert’s awesome
 [Tailblocks][link-tailblocks]
 
+![Example](screens/filtering-example.gif "search in games...")
+
 ---
 
 ## What’s New ?
