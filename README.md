@@ -1,5 +1,5 @@
 ![JavaScript](https://img.shields.io/badge/javascript-vanilla-yellow.svg)
-![Version](https://img.shields.io/badge/version-0.0.1-orange.svg)
+![Version](https://img.shields.io/badge/version-0.0.2-orange.svg)
 ![Tailwind](https://img.shields.io/badge/tailwind_CSS-2.0.0-blue.svg)
 
 
