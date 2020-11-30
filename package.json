@@ -1,6 +1,6 @@
 {
   "name": "learning-stimulus-02",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Basic filtering againts collection of Commodore 64 games via stimulus + tailwind",
   "main": "index.js",
   "scripts": {
