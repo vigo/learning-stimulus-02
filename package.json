@@ -1,0 +1,25 @@
+{
+  "name": "learning-stimulus-02",
+  "version": "1.0.0",
+  "description": "![JavaScript](https://img.shields.io/badge/javascript-vanilla-yellow.svg) ![Version](https://img.shields.io/badge/version-0.0.2-orange.svg) ![Tailwind](https://img.shields.io/badge/tailwind_CSS-2.0.0-blue.svg)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigo/learning-stimulus-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigo/learning-stimulus-02/issues"
+  },
+  "homepage": "https://github.com/vigo/learning-stimulus-02#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "serve": "^11.3.2"
+  }
+}
