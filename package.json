@@ -1,7 +1,7 @@
 {
   "name": "learning-stimulus-02",
-  "version": "1.0.0",
-  "description": "![JavaScript](https://img.shields.io/badge/javascript-vanilla-yellow.svg) ![Version](https://img.shields.io/badge/version-0.0.2-orange.svg) ![Tailwind](https://img.shields.io/badge/tailwind_CSS-2.0.0-blue.svg)",
+  "version": "0.0.2",
+  "description": "Basic filtering againts collection of Commodore 64 games via stimulus + tailwind",
   "main": "index.js",
   "scripts": {
     "serve": "serve .",

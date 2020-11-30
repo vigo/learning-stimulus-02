@@ -11,9 +11,22 @@ learned/improved from [egghead.io][link-egghead] today. Thanks to Mert’s aweso
 
 ![Example](screens/filtering-example.gif "search in games...")
 
+## Setup & Run
+
+```bash
+$ npm install
+$ npm run serve
+```
+
+Now, open `http://localhost:5000`...
+
 ---
 
 ## What’s New ?
+
+**November 30, 2020, Corona Days**
+
+- Thanks to [Üstün Özgür](https://github.com/ustun) for ES6 fixes and support!
 
 **November 29, 2020, Corona Days**
 
