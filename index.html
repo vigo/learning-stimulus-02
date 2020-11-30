@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Commodore Games</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
 
     <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/controllers/games_controller.js"></script>
-</head>
-<body>
-
-<section class="text-gray-700 body-font" data-controller="games" data-games-filtered-count="0">
-    <div class="container px-5 py-24 mx-auto">
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <section
+      class="text-gray-700 body-font"
+      data-controller="games"
+      data-games-filtered-count="0"
+    >
+      <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Commodore Games</h1>
-            <form>
-                <input 
-                    placeholder="Search game..." 
-                    type="text" id="name" name="name" class="w-2/4 bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    data-target="games.nameFilter"
-                    data-action="input->games#filterCollection"
-                >
-            </form>
-            <span class="mt-2 hidden" data-target="games.foundNothing">Nothing found</span>
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+          >
+            Commodore Games
+          </h1>
+          <form>
+            <input
+              placeholder="Search game..."
+              type="text"
+              id="name"
+              name="name"
+              class="w-2/4 bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              data-target="games.nameFilter"
+              data-action="input->games#filterCollection"
+            />
+          </form>
+          <span class="mt-2 hidden" data-target="games.foundNothing"
+            >Nothing found</span
+          >
         </div>
 
         <div class="flex flex-wrap -m-4" data-target="games.collection"></div>
-    </div>
-</section>
-
-</body>
+      </div>
+    </section>
+  </body>
 </html>
