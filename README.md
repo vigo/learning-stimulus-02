@@ -27,6 +27,7 @@ Now, open `http://localhost:5000`...
 **November 30, 2020, Corona Days**
 
 - Thanks to [Üstün Özgür](https://github.com/ustun) for ES6 fixes and support!
+- Move games list to a seperate file: `games_db.js`
 
 **November 29, 2020, Corona Days**
 

@@ -12,3 +12,11 @@ task :bump, [:revision] => [:check_repo] do |_, args|
   abort "Please provide valid revision: #{AVAILABLE_REVISIONS.join(',')}" unless AVAILABLE_REVISIONS.include?(args.revision)
   system "bumpversion #{args.revision}"
 end
+
+desc "Default task is: run_server"
+task :default => [:run_server]
+
+desc "Run server"
+task :run_server do
+  system "npm run serve"
+end

@@ -1,4 +1,5 @@
 // games_controller.js
+import { gamesList } from "./games_db.js"
 
 const GAME_UI_ELEMENT = `
 <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-target="games.game">
@@ -16,17 +17,6 @@ const GAME_UI_ELEMENT = `
 const SANITIZED_INPUT_MAP = {
   default: (input) => input.toLowerCase(),
 }
-
-const gamesList = [
-  { name: "Impossible Mission", category: "COMMODORE 64", year: "1984" },
-  { name: "California Games", category: "COMMODORE 64", year: "1987" },
-  { name: "One Man and His Droid", category: "COMMODORE 16", year: "1985" },
-  { name: "Tom Thumb", category: "COMMODORE 16", year: "1986" },
-  { name: "Pets Rescue", category: "COMMODORE PLUS 4", year: "2018" },
-  { name: "Shadow of the Beast", category: "AMIGA 500", year: "1989" },
-  { name: "Alien Breed 3D", category: "AMIGA 1200", year: "1995" },
-  { name: "Alpharay", category: "COMMODORE PLUS 4", year: "2019" },
-]
 
 export class Games extends Stimulus.Controller {
   static get targets() {
